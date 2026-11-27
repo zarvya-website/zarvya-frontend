@@ -194,10 +194,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-md-5 p-0">
-                            <Swiper slidesPerView={1} modules={[Autoplay]} autoplay={{
-                                delay: 1000,
-                                disableOnInteraction: false,
-                            }} speed={1000} className="imageSwiper">
+                            <Swiper slidesPerView={1} className="imageSwiper">
                                 <SwiperSlide>
                                     <div className="img-box">
                                         <Image src="/images/artisan-01.webp" alt="artisan-01" className="img-fluid" width={550} height={540} />
